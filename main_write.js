@@ -6,7 +6,7 @@ $("#p2").hide();
 //array das prompts para o utilizador responder
 let prompt1 = ["-I don't know figure it out.", "-Go look for them and talk to them!", "-I'm not sure how to help maybe you should try looking for them.", "-The answer is aways love, honey!", "-(...)"];
 let prompts1 = prompt1[Math.floor(Math.random() * prompt1.length)];
-let prompt2 = ["-Thank you!", "-I shouldn't have asked...", "-Ok! I'll try that thank you so much!", "-That helps a lot thanks!", "-(...)"];
+let prompt2 = ["-Thank you! - <input type='text' id='firstnamerep' name='firstname' class='firstnamereplace' onkeyup='twoWay(event)'> replied.", "-I shouldn't have asked... - <input type='text' id='firstnamerep' name='firstname' class='firstnamereplace' onkeyup='twoWay(event)'> replied.", "-Ok! I'll try that thank you so much! - <input type='text' id='firstnamerep' name='firstname' class='firstnamereplace' onkeyup='twoWay(event)'> replied.", "-That helps a lot thanks! - <input type='text' id='firstnamerep' name='firstname' class='firstnamereplace' onkeyup='twoWay(event)'> replied.", "-(...) - <input type='text' id='firstnamerep' name='firstname' class='firstnamereplace' onkeyup='twoWay(event)'> replied."];
 let prompts2 = prompt2[Math.floor(Math.random() * prompt2.length)];
 let prompt3 = ["-Where the hell have you been?", "-You found me congrats!", "-Took you long enough huh?", "-Oh hi there.", "-(...)"];
 let prompts3 = prompt3[Math.floor(Math.random() * prompt3.length)];
