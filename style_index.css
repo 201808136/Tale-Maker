@@ -1,0 +1,42 @@
+/* General */
+*{
+    background-color: red;
+    overflow: hidden;
+    }
+  
+  
+  .grid-container {
+  
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 40px;
+    position: relative;
+  
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  img {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+  
+  }
+  .grid-container > div {
+  padding: 20px 20px;
+  font-size: 30px;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  }
+  
+  button {
+  background-color: white;
+  font-family: 'Source Code Pro', monospace;
+  border: none;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+  }
